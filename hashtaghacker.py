@@ -27,7 +27,7 @@ except:
     wb.create_sheet("Sheet1") 
 sheet = wb["Sheet1"]
 
-col = 13
+col = 16
 for i in range(1,41):
     sampled_list = random.sample(hashtags, 30)
     result_file = open("results/result"+str(i)+".txt", "w")
